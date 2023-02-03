@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: rhte2023-application-02
     spec:
       containers:
-      - image: quay.io/jclaret/chatdraw:latest
+      - image: quay.io/jclaret/chatdraw:rhte2023
         imagePullPolicy: Always
         name: rhte2023-application-02
         ports:
