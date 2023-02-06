@@ -11,4 +11,7 @@ spec:
     kind: Service
     name: rhte2023-application-02
     weight: 100
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
   wildcardPolicy: None
